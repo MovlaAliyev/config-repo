@@ -1,5 +1,6 @@
 server:
-    context-path: /limits-service
+    servlet:
+        context-path: /limits-service
 ---
 spring:
     profiles: prod
