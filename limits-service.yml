@@ -2,12 +2,12 @@ server:
     context-path: /limits-service
 spring:
     profiles: prod
-        limit-service:
-            minimum: 1
-            maximum: 111
+    limit-service:
+        minimum: 1
+        maximum: 111
 ---
 spring:
     profiles: local
-        limit-service:
-            minimum: 9
-            maximum: 999
+    limit-service:
+        minimum: 9
+        maximum: 999
